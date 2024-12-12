@@ -1,7 +1,6 @@
-using Bibliotec.Models;
-using Microsoft.EntityFrameworkCore;
+	using Microsoft.EntityFrameworkCore;
 
-namespace Bibliotec.Contexts
+namespace SleighList.Contexts
 {
     // Classe que terá as informações do banco de dados
     public class Context : DbContext
@@ -32,22 +31,12 @@ namespace Bibliotec.Contexts
                     //  Integrated Security=true; TrustServerCertificate = true");
                     // SAMANTA:
                     // optionsBuilder.UseSqlServer("Data Source=DESKTOP-LAO5MIJ\\SQLEXPRESSTEC; Initial Catalog = Bibliotec; User Id=sa; Password=abc123; Integrated Security=true; TrustServerCertificate = true");
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-LAO5MIJ\\SQLEXPRESSTEC; Initial Catalog = Bibliotec; User Id=sa; Password=abc123; Integrated Security=true; TrustServerCertificate = true");
+                optionsBuilder.UseSqlServer("Data Source=NOTE19-S28\\SOPHIA; Initial Catalog = SleighList4; User Id=sa; Password=123; Integrated Security=true; TrustServerCertificate = true");
 
                 }
         }
     
         // As referencias das nossas tabelas no banco de dados:
-        public DbSet<Categoria> Categoria {get; set;}
-        // Curso
-        public DbSet<Curso> Curso {get; set;}
-        // Livro
-        public DbSet<Livro> Livro {get; set;}
-        // Usuario
-        public DbSet<Usuario> Usuario {get; set;}
-        // LivroCategoria
-        public DbSet<LivroCategoria> LivroCategoria {get; set;}
-        // LivroReserva
-        public DbSet<LivroReserva> LivroReserva {get; set;}
+        
     }
 }

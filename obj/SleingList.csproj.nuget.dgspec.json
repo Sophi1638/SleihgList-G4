@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\G4\\SleihgList-G4\\SleingList.csproj": {}
+    "C:\\Users\\44098786893\\Desktop\\SleihgList\\SleingList\\SleingList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\G4\\SleihgList-G4\\SleingList.csproj": {
+    "C:\\Users\\44098786893\\Desktop\\SleihgList\\SleingList\\SleingList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\G4\\SleihgList-G4\\SleingList.csproj",
+        "projectUniqueName": "C:\\Users\\44098786893\\Desktop\\SleihgList\\SleingList\\SleingList.csproj",
         "projectName": "SleingList",
-        "projectPath": "C:\\Users\\admin\\Desktop\\G4\\SleihgList-G4\\SleingList.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\G4\\SleihgList-G4\\obj\\",
+        "projectPath": "C:\\Users\\44098786893\\Desktop\\SleihgList\\SleingList\\SleingList.csproj",
+        "packagesPath": "C:\\Users\\44098786893\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\44098786893\\Desktop\\SleihgList\\SleingList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\44098786893\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,12 +34,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -66,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
